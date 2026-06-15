@@ -5,7 +5,7 @@ Zackend API. Built with **Ktor Server** in Kotlin and connected to a serverless 
 ---
 
 ###  Project Resources & Repositories
-- **Backend API Repository**: [github.com/yeshuwahane/tradepulseapi](https://github.com/yeshuwahane/tradepulseapi) (This Repository)
+- **Backend API Repository**: [github.com/yeshuwahane/tradepulse_api](https://github.com/yeshuwahane/tradepulse_api) (This Repository)
 - **Mobile App Repository**: [github.com/yeshuwahane/tradepulse](https://github.com/yeshuwahane/tradepulse) 
 
 ---
