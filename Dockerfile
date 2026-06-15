@@ -8,6 +8,6 @@ RUN ./gradlew shadowJar --no-daemon
 FROM eclipse-temurin:17-jre
 EXPOSE 8080
 RUN mkdir /app
-COPY --from=build /home/gradle/src/build/libs/zeero_api-all.jar /app/zeero_api-all.jar
+COPY --from=build /home/gradle/src/build/libs/tradepulse_api-all.jar /app/tradepulse_api-all.jar
 WORKDIR /app
-CMD ["java", "-jar", "zeero_api-all.jar"]
+CMD ["java", "-jar", "tradepulse_api-all.jar"]
